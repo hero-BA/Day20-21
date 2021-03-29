@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body>
+    <div class="main">
+      <h2>Virtual Keyboard</h2>
+        
+        <textarea class="textfield">Text Area</textarea> 
+      <div class="keyboard">
+        <div class="vkeyboard_keys">
+          <button type="button" class="vkeyboard_key">1</button>
+          <button type="button" class="vkeyboard_key">2</button>
+          <button type="button" class="vkeyboard_key">3</button>
+          <button type="button" class="vkeyboard_key">4</button>
+          <button type="button" class="vkeyboard_key">5</button>
+          <button type="button" class="vkeyboard_key">6</button>
+          <button type="button" class="vkeyboard_key">7</button>
+          <button type="button" class="vkeyboard_key">8</button>
+          <button type="button" class="vkeyboard_key">9</button>
+          <button type="button" class="vkeyboard_key">0</button>
+          <button type="button" class="backspace">Back Space</button>
+
+        <br>
+        
+          <button type="button" class="vkeyboard_key">q</button>
+          <button type="button" class="vkeyboard_key">w</button>
+          <button type="button" class="vkeyboard_key">e</button>
+          <button type="button" class="vkeyboard_key">r</button>
+          <button type="button" class="vkeyboard_key">t</button>
+          <button type="button" class="vkeyboard_key">y</button>
+          <button type="button" class="vkeyboard_key">u</button>
+          <button type="button" class="vkeyboard_key">i</button>
+          <button type="button" class="vkeyboard_key">o</button>
+          <button type="button" class="vkeyboard_key">p</button>
+          <button type="button" class="enter">Enter</button>
+
+        <br>
+
+          <button type="button" class="vkeyboard_key">a</button>
+          <button type="button" class="vkeyboard_key">s</button>
+          <button type="button" class="vkeyboard_key">d</button>
+          <button type="button" class="vkeyboard_key">f</button>
+          <button type="button" class="vkeyboard_key">g</button>
+          <button type="button" class="vkeyboard_key">h</button>
+          <button type="button" class="vkeyboard_key">j</button>
+          <button type="button" class="vkeyboard_key">k</button>
+          <button type="button" class="vkeyboard_key">l</button>
+          <button type="button" class="capslock">Caps Lock</button>
+        
+        <br>
+
+          <button type="button" class="vkeyboard_key">z</button>
+          <button type="button" class="vkeyboard_key">x</button>
+          <button type="button" class="vkeyboard_key">c</button>
+          <button type="button" class="vkeyboard_key">v</button>
+          <button type="button" class="vkeyboard_key">b</button>
+          <button type="button" class="vkeyboard_key">n</button>
+          <button type="button" class="vkeyboard_key">m</button>
+          <button type="button" class="vkeyboard_key">-</button>
+          <button type="button" class="vkeyboard_key">_</button>
+          <button type="button" class="shift">Shift</button>
+
+        <br>
+          
+          <button type="button" class="space vkeyboard_key--extra-wide">Space</button>
+          <button type="button" class="submit">Submit</button>
+          
+        </div>
+    </div>
+  </div>
+    <script src="index.js"></script>
+    <script type="text/javascript">
+        const vkeyboard_keys = document.getElementsByClassName("vkeyboard_keys");
+        const vkb = new Keyboard(vkeyboard_keys);
+
+    </script>
+  </body>
+</html>
